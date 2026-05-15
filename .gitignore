@@ -1,0 +1,17 @@
+# Ignore local python cache files
+__pycache__/
+*.pyc
+
+# Ignore macOS system files
+.DS_Store
+
+# CRITICAL: Block data dumps, live logs, and local databases
+*_LOG.csv
+*.csv
+*.database
+*.db
+data/
+
+# Block local environment keys/private config files
+.env
+config_private.json
