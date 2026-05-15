@@ -59,4 +59,5 @@ def get_scanner_status():
 
 if __name__ == "__main__":
     # Runs the local development server on port 8000
-    uvicorn.run("server.py:app", host="0.0.0.0", port=8000, reload=True)
+    uvicorn.run("src.server:app", host="0.0.0.0", port=8000, reload=True)
+
